@@ -17,13 +17,16 @@ function Navbar() {
 		}
 	};
 
+	const scrollToTop = () => {
+		window.scrollTo(0, 0);
+	};
+
 	window.addEventListener('resize', showButton);
 
-  return (
+  	return (
     <>
       <nav className="navbar">
 		<NavLink to='/' className='navbar-logo'>
-			{/* <img src='images/efuLogo.png' className='navbar-logo-img'></img> */}
 			<h3 style={{ margin:'0 0 25px 0' }}>Erica Fu</h3>
 		</NavLink>
 		<div className="navbar-container">
@@ -32,17 +35,17 @@ function Navbar() {
 			</div>
 			<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 				<li className='nav-item'>
-					<NavLink exact to='/' activeClassName="active" className='nav-links' onClick={closeMobileMenu}>
+					<NavLink exact to='/' activeClassName="active" className='nav-links' onClick={scrollToTop}>
 						Home
 					</NavLink>
 				</li>
 				<li className='nav-item'>
-					<NavLink to='/Projects' activeClassName="active" className='nav-links' onClick={closeMobileMenu}>
+					<NavLink to='/Projects' activeClassName="active" className='nav-links' onClick={scrollToTop}>
 						Projects
 					</NavLink>
 				</li>
 				<li className='nav-item'>
-					<NavLink to='/Resume' activeClassName="active" className='nav-links' onClick={closeMobileMenu}>
+					<NavLink to='/Resume' activeClassName="active" className='nav-links' onClick={scrollToTop}>
 						Resume
 					</NavLink>
 				</li>

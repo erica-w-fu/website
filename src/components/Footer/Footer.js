@@ -9,10 +9,10 @@ function Footer() {
                 <div className="social-media-wrap">
                     <div className="footer-logo">
                         <Link to='/' className="social-logo">
-                            Erica Fu
+                            <img src='images/efuLogo.png' className='navbar-logo-img'></img>
                         </Link>
                     </div>
-                    <small className="website-rights">Created with React 2021</small>
+                    <small className="website-rights">Created with React, 2021</small>
                     <div className="social-icons">
                         <a 
                             className="social-icon-link linkedIn"
@@ -35,13 +35,13 @@ function Footer() {
                         >
                             <i className="fab fa-instagram"></i>
                         </a>
-                        <a 
+                        {/* <a 
                             className="social-icon-link facebook"
                             target='_blank'
                             href='https://www.facebook.com/erica.fu.524'
                         >
                             <i className="fab fa-facebook"></i>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </section>

@@ -10,6 +10,7 @@ import Multitask from './ProjectMediaComponents/Multitask.js';
 import Fish from './ProjectMediaComponents/Fish.js';
 import BitLogo from './ProjectMediaComponents/BitLogo.js';
 import CommunicationDesign from './ProjectMediaComponents/CommunicationDesign.js'
+import Microsite from './ProjectMediaComponents/Microsite.js'
 import Art from './ProjectMediaComponents/Art.js'
 import CrossCountryCommunications from  './ProjectMediaComponents/CrossCountryConnections.js'
 import AcrylicPourPaintingPlatform from  './ProjectMediaComponents/AcrylicPourPaintingPlatform.js'
@@ -29,7 +30,7 @@ function ProjectSections(props) {
             {
                 props.link === '' 
                 ? <></>
-                : <p>For more information, click <a className="link-color" href={ props.link } target="_blank">here</a></p> 
+                : <p>For more information, click <a className="link-color underline" href={ props.link } target="_blank">here</a>.</p> 
             }
 
             <Project id={ projectId }/>
@@ -60,8 +61,10 @@ const Project = ({ id }) => {
             return <Fish />;
         case "bit_logo":
             return <BitLogo />;
-        case "practicing_form":
+        case "communication_design":
             return <CommunicationDesign />;
+        case "microsite":
+            return <Microsite />;
         case "art":
             return <Art />;
         case "ccc":

@@ -13,7 +13,7 @@ function FeaturedProjectSections(props) {
     return (
         <>
             {
-                (props.id%2 == 0) ? 
+                (props.pos % 2 === 0) ? 
                 <div className='featured-project-card'>
                     <div className="featured-media">
                         <Project id={ projectId }/>

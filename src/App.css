@@ -19,9 +19,15 @@
   --body-fallback: serif;
 }
 
+.background {
+  background-color: var(--white);
+}
+
 .page-wrapper {
   padding: 0px 50px;
   background-color: var(--white);
+  max-width: 1000px;
+  margin: auto;
 }
 
 /* customize appearance of text */
@@ -60,6 +66,23 @@ h5 {
 p {
   font-family: var(--body), var(--body-fallback);
   font-size: 11px;
+}
+
+a:hover {
+  color: var(--gray);
+}
+
+a:active {
+  color: var(--accent);
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 124px;
 }
 
 /* .home,

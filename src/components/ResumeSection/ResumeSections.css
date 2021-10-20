@@ -49,7 +49,7 @@ a {
 }
 
 .link:hover {
-    background-image: linear-gradient(to right, var(--white), var(--accent-light));
+    /* background-image: linear-gradient(to right, var(--white), var(--accent-light)); */
 }
 
 /* .dates {

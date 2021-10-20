@@ -29,10 +29,13 @@
 }
 
 .active-category {
-    background-image: linear-gradient(to left, var(--white), var(--accent-light));
+    /* background-image: linear-gradient(to left, var(--white), var(--accent-light)); */
 }
+
+/* project sections */
 .category {
     color: var(--gray);
+    font-weight: light;
 }
 
 .left-sec > p {

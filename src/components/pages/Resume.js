@@ -10,7 +10,7 @@ function Resume() {
       style="name"
     >
         <div>
-          <p>ericawfu@gmail.com</p>
+          <p>efu@andrew.cmu.com</p>
           <p>+1 (650) 392-9822</p>
           <p>Pittsburgh, PA</p>
         </div>
@@ -45,25 +45,29 @@ function Resume() {
       title="May 2021 - present"
       style="dates"
     >
-      <h3 class="bolded-title same-line">HCI Research Assistant  </h3><h4 class="faded-title same-line"> CoEx Lab</h4><div class="location same-line"> Pittsburgh, PA</div>
-      <ul>
-        <li>Redesigned and programmed and an iOS app with Xcode and Swift</li>
-        <li>Researched how social influence could encourage better cybersecurity behaviors</li>
-        <li>Wrote and proofread adulting and cybersecurity tasks and study surveys</li>
-        <li>Conducted and evaluated the results of a pilot study where users participated in a 30-day adulting challenge to be implemented in the app</li>
-      </ul>
+      <div className="link">
+        <a href="Projects/#SwiftXCode">
+          <h3 class="bolded-title same-line" target='_blank'>HCI Research Assistant  </h3><h4 class="faded-title same-line"> CoEx Lab</h4><div class="location same-line"> Pittsburgh, PA</div>
+          <ul>
+            <li>Redesigned and programmed an iOS app with Xcode and Swift</li>
+            <li>Researched how social influence could encourage better cybersecurity behaviors</li>
+            <li>Wrote and proofread adulting and cybersecurity tasks and study surveys</li>
+            <li>Conducted and evaluated the results of a pilot study where users participated in a 30-day adulting challenge to be implemented in the app</li>
+          </ul>
+        </a>
+      </div>
     </Section>
     <Section
       title="May 2021 - present"
       style="dates"
     >
       <div className="link">
-        <a href="https://crosscountryconnections.github.io/index.html" target='_blank'>
+        <a href="Projects/#PhysicalComputing" target='_blank'>
           <h3 class="bolded-title same-line">Independent Research  </h3><h4 class="faded-title same-line"> SURG</h4><div class="location same-line"> Pittsburgh, PA</div>
           <ul>
             <li>Designed and engineered an interactive LED display that mirrored a matching display across the country; to be displayed at CMU Silicon Valley</li>
-            <li>Investigated how playful tactile interactions would enhance remote communication</li>
-            <li>Used Arduinos, Raspberry Pis, Fusion 360 to construct and connect the physical installations and Unity and Illustrator to digitally model the interaction</li>
+            <li>Investigated how playful, tactile interactions would enhance remote communication</li>
+            <li>Used Arduinos, Raspberry Pis, and Fusion 360 to construct and connect the physical installations and Unity and Illustrator to digitally model the interaction</li>
           </ul>
         </a>
       </div>
@@ -74,7 +78,7 @@ function Resume() {
     >
       <h3 class="bolded-title same-line">Media Design Intern  </h3><h4 class="faded-title same-line"> DAMO Academy</h4><div class="location same-line"> San Mateo, CA</div>
       <ul>
-        <li>Designed and constructed an interactive wall for the DAMO lab illustrating the history of human-computer interaction</li>
+        <li>Designed and constructed an interactive wall for the DAMO lab, illustrating the history of human-computer interaction</li>
         <li>Used multimedia–Arduino, conductive paint, LED lights, speakers–to engage in multiple senses and demonstrate distinct ways humans can interact with computers</li>
         <li>Designed minimalistic icons on Photoshop to represent each of the events in history</li>
       </ul>
@@ -104,7 +108,7 @@ function Resume() {
           <h3 class="bolded-title same-line">President  </h3><h4 class="faded-title same-line"> Design For America</h4><div class="location same-line"> Pittsburgh, PA</div>
           <ul>
             <li>Organized and directed studio and executive meetings</li>
-            <li>Presented to 50 members the impact and process of human-centered design</li>
+            <li>Presented to 40 members the impact and process of human-centered design</li>
             <li>Collaborated with professors and local community partners to identify challenging social issues and advise members as they develop solutions</li>
             <li>Coordinated with National DFA to share successful practices and challenges</li>
           </ul>
@@ -156,20 +160,20 @@ function Resume() {
           <th>Website</th>
         </tr>
         <tr>
-          <td>Swift • Xcode</td>
-          <td>Adobe Illustrator</td>
+          <td><a className="underline" href="Projects/#SwiftXCode" target="_blank">Swift • Xcode</a></td>
+          <td><a className="underline" href="Projects/#AdobeIllustrator" target="_blank">Adobe Illustrator</a></td>
           <td>Java • C</td>
-          <td>JavaScript</td>
+          <td><a className="underline" href="Projects/#JavascriptCSSHTML" target="_blank">JavaScript</a></td>
         </tr>
         <tr>
-          <td>React</td>
-          <td>Figma</td>
-          <td>Unix • Git</td>
-          <td>CSS • HTML</td>
+          <td><a className="underline" href="Projects/#React" target="_blank">React</a></td>
+          <td><a className="underline" href="Projects/#Figma" target="_blank">Figma</a></td>
+          <td><a className="underline" href="https://github.com/erica-w-fu" target="_blank">Unix • Git</a></td>
+          <td><a className="underline" href="Projects/#JavascriptCSSHTML" target="_blank">CSS • HTML</a></td>
         </tr>
         <tr>
-          <td>C# • Unity</td>
-          <td>Adobe Photoshop</td>
+          <td><a className="underline" href="Projects/#C#Unity" target="_blank">C# • Unity</a></td>
+          <td><a className="underline" href="Projects/#AdobePhotoshop" target="_blank">Adobe Photoshop</a></td>
           <td>SQL</td>
           <td>Wordpress</td>
         </tr>
@@ -185,13 +189,17 @@ function Resume() {
       title="Nov 2020"
       style="dates"
     >
-      <h3 class="bolded-title same-line">Keith Block Entrepreneur Competition  </h3><h4 class="faded-title same-line"> Second Place</h4>
+      <div className="link">
+        <a className="underline" href="https://www.heinz.cmu.edu/current-students/keith-block-entrepreneurship-competition" target="_blank">
+          <h3 class="bolded-title same-line">Keith Block Entrepreneur Competition  </h3><h4 class="faded-title same-line"> Second Place</h4>
+        </a>
+      </div>
     </Section>
     <Section
       title="Sep 2020"
       style="dates"
     >
-      <h3 class="bolded-title same-line">Hack CMU  </h3><h4 class="faded-title same-line"> EchoAR Category Award</h4>
+      <h3 class="bolded-title same-line">HackCMU  </h3><h4 class="faded-title same-line"> EchoAR Category Award</h4>
     </Section>
   </>
   );
