@@ -2,14 +2,20 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Footer.css'
 
+import logo from '../data/efuLogo.png'
+
 function Footer() {
+    const scrollToTop = () => {
+		window.scrollTo(0, 0);
+	};
+
     return (
         <div className='footer-container'>
             <section className="social-media">
                 <div className="social-media-wrap">
                     <div className="footer-logo">
-                        <Link to='/' className="social-logo">
-                            <img src='images/efuLogo.png' className='navbar-logo-img'></img>
+                        <Link to='/' className="social-logo" onClick={scrollToTop}>
+                            <img src={logo} className='navbar-logo-img'></img>
                         </Link>
                     </div>
                     <small className="website-rights">Created with React, 2021</small>
