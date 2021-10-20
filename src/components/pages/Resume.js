@@ -1,7 +1,6 @@
 import React from 'react';
-// import '../../App.css';
-import Section from '../ResumeSections.js';
-import '../ResumeSections.css';
+import Section from '../ResumeSection/ResumeSections.js';
+import '../ResumeSection/ResumeSections.css';
 
 function Resume() {
   return (
@@ -33,6 +32,7 @@ function Resume() {
         <li>Introduction to Computer Systems</li>
         <li>Introduction to Information Systems</li>
         <li>Database Design and Development</li>
+        <li>Designing Human Centered Software</li>
       </ul>
     </Section>
 
@@ -45,7 +45,7 @@ function Resume() {
       title="May 2021 - present"
       style="dates"
     >
-      <h3 class="bolded-title same-line">HCI Research Assistant  </h3><h4 class="bolded-title same-line"> CoEx Lab</h4><div class="location same-line"> Pittsburgh, PA</div>
+      <h3 class="bolded-title same-line">HCI Research Assistant  </h3><h4 class="faded-title same-line"> CoEx Lab</h4><div class="location same-line"> Pittsburgh, PA</div>
       <ul>
         <li>Redesigned and programmed and an iOS app with Xcode and Swift</li>
         <li>Researched how social influence could encourage better cybersecurity behaviors</li>
@@ -57,14 +57,16 @@ function Resume() {
       title="May 2021 - present"
       style="dates"
     >
-      <a href="https://crosscountryconnections.github.io/index.html" target='_blank'>
-        <h3 class="bolded-title same-line">Independent Research  </h3><h4 class="faded-title same-line"> SURG</h4><div class="location same-line"> Pittsburgh, PA</div>
-        <ul>
-          <li>Designed and engineered an interactive LED display that mirrored a matching display across the country; to be displayed at CMU Silicon Valley</li>
-          <li>Investigated how playful tactile interactions would enhance remote communication</li>
-          <li>Used Arduinos, Raspberry Pis, Fusion 360 to construct and connect the physical installations and Unity and Illustrator to digitally model the interaction</li>
-        </ul>
-      </a>
+      <div className="link">
+        <a href="https://crosscountryconnections.github.io/index.html" target='_blank'>
+          <h3 class="bolded-title same-line">Independent Research  </h3><h4 class="faded-title same-line"> SURG</h4><div class="location same-line"> Pittsburgh, PA</div>
+          <ul>
+            <li>Designed and engineered an interactive LED display that mirrored a matching display across the country; to be displayed at CMU Silicon Valley</li>
+            <li>Investigated how playful tactile interactions would enhance remote communication</li>
+            <li>Used Arduinos, Raspberry Pis, Fusion 360 to construct and connect the physical installations and Unity and Illustrator to digitally model the interaction</li>
+          </ul>
+        </a>
+      </div>
     </Section>
     <Section
       title="Jan 2019 - Jan 2020"
@@ -97,15 +99,17 @@ function Resume() {
       title="Sep 2020 - present"
       style="dates"
     >
-      <a href="https://crosscountryconnections.github.io/index.html" target='_blank'>
-        <h3 class="bolded-title same-line">President  </h3><h4 class="faded-title same-line"> Design For America</h4><div class="location same-line"> Pittsburgh, PA</div>
-        <ul>
-          <li>Organized and directed studio and executive meetings</li>
-          <li>Presented to 50 members the impact and process of human-centered design</li>
-          <li>Collaborated with professors and local community partners to identify challenging social issues and advise members as they develop solutions</li>
-          <li>Coordinated with National DFA to share successful practices and challenges</li>
-        </ul>
-      </a>
+      <div className="link">
+        <a href="https://www.dfaxcmu.org/" target='_blank'>
+          <h3 class="bolded-title same-line">President  </h3><h4 class="faded-title same-line"> Design For America</h4><div class="location same-line"> Pittsburgh, PA</div>
+          <ul>
+            <li>Organized and directed studio and executive meetings</li>
+            <li>Presented to 50 members the impact and process of human-centered design</li>
+            <li>Collaborated with professors and local community partners to identify challenging social issues and advise members as they develop solutions</li>
+            <li>Coordinated with National DFA to share successful practices and challenges</li>
+          </ul>
+        </a>
+      </div>
     </Section>
     <Section
       title="Summer 2020"

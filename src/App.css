@@ -1,24 +1,28 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  background-color: var(--white);
+  box-sizing: content-box;
+  margin: 0px;
 }
 
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
 :root {
   /* define variables */
   --accent: #7e71d3; /* #c51d2e or #ea9554 */
+  --accent-light: #7e71d36c;
   --white: #f8f8f8;
   --black: #242424;
-  --gray: #cecece;
-  --title: "Montserrat";
+  --gray: #959595;
+  --title: "Inter";
   --title-fallback: sans-serif;
   --title-resume: "Helvetica";
-  --body: Georgia;
+  --body: "Inter";
   --body-fallback: serif;
 }
 
+.page-wrapper {
+  padding: 0px 50px;
+  background-color: var(--white);
+}
 
 /* customize appearance of text */
 h1 {
@@ -49,15 +53,16 @@ h4 {
 h5 {
   font-family: var(--title), var(--title-fallback);
   font-weight: lighter;
-  font-size: 14px;
+  font-size: 16px;
+  color: var(--gray);
 }
 
 p {
   font-family: var(--body), var(--body-fallback);
-  font-size: 18px;
+  font-size: 11px;
 }
 
-.home,
+/* .home,
 .about {
   display: flex;
   height: 90vh;
@@ -82,4 +87,4 @@ p {
 .fun-small {
   display: block;
   font-size: 1rem;
-}
+} */
