@@ -15,13 +15,13 @@ function Home() {
             I am an Information Systems major at Carnegie Mellon University, minoring in Human Computer Interaction, Design, and Computer Science. I hope to use my skills to help others and bring them a unique experience.  
         </h4>
 
-        <div className="divider"></div>
+        <div className="divider-big"></div>
         <h3><b>Featured Projects</b></h3>
         <a href="Projects/#SwiftXCode">
           <FeaturedProjectSection
             key="thirty_day_adulting"
             title="30 Day Adulting"
-            summary="Developing an adulting challenge iOS application to use social influence principles to effectively teach and encourage cybersecurity habits."
+            summary="Developed an adulting challenge iOS application to use social influence principles to effectively teach and encourage cybersecurity habits."
             component="thirty_day_adulting"
             pos="0"
           />
@@ -30,7 +30,7 @@ function Home() {
           <FeaturedProjectSection
             key="ccc"
             title="Cross Country Connections"
-            summary="Using physical computing to create a playful, remotely connected, and interactive canvas."
+            summary="Used physical computing to create a playful, remotely connected, and interactive canvas."
             component="ccc"
             pos="1"
           />

@@ -1,6 +1,6 @@
 import React from "react";
 import '../ProjectSection.css';
-import Cards from '../Art/Cards.js'
+import Cards from '../project-media/Art/Cards.js'
 
 function Art() {
     return(

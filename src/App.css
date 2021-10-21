@@ -81,8 +81,12 @@ a:active {
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
   scroll-padding-top: 124px;
+}
+
+.divider-big {
+  padding: 40px;
 }
 
 /* .home,

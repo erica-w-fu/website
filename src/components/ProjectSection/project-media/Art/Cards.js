@@ -2,57 +2,69 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
+import dumplings from './imagesFun/makingDumplings.jpg'
+import tired from './imagesFun/tired.jpeg'
+import peaches from './imagesFun/washingPeaches.jpg'
+
+import breakfast from './imagesFun/eggPattern.jpg'
+import seahorse from './imagesFun/escapingTheComfortZone.jpg'
+import peel from './imagesFun/peelingAway.jpg'
+
+import trim from './imagesFun/trim.jpg'
+import dough from './imagesFun/myFace.jpg'
+import strawberry from './imagesFun/protected.jpg'
+
 function Cards() {
     return (
         <div className='cards'>
             <div className="cards__wrapper">
                 <div className="cards__items_1">
                     <CardItem 
-                        src='../imagesFun/makingDumplings.jpg'
+                        src={dumplings}
                         text='Making Dumplings'
                         label='Ink'
                     />
                     <CardItem 
-                        src='imagesFun/tired.jpeg'
+                        src={tired}
                         text='Tired'
                         label='Charcoal'
                     />
                     <CardItem 
-                        src='imagesFun/washingPeaches.jpg'
+                        src={peaches}
                         text='Washing Peaches'
                         label='Watercolor, Photoshop'
                     />
                 </div>
                 <div className="cards__items_2">
                     <CardItem 
-                        src='imagesFun/eggPattern.jpg'
+                        src={breakfast}
                         text='Breakfast Pattern'
                         label='Illustrator'
                     />
                     <CardItem 
-                        src='imagesFun/escapingTheComfortZone.jpg'
+                        src={seahorse}
                         text='Escaping the Comfort Zone'
                         label='Watercolor, Photoshop'
                     />
                     <CardItem 
-                        src='imagesFun/peelingAway.jpg'
+                        src={peel}
                         text='Peeling Away'
                         label='Watercolor, Photoshop'
                     />
                 </div>
                 <div className="cards__items_3">
                     <CardItem 
-                        src='imagesFun/trim.jpg'
+                        src={trim}
                         text='Trim'
                         label='Photoshop'
                     />
                     <CardItem 
-                        src='imagesFun/myFace.jpg'
+                        src={dough}
                         text='My Face'
                         label='Watercolor, Photoshop'
                     />
                     <CardItem 
-                        src='imagesFun/protected.jpg'
+                        src={strawberry}
                         text='Hiding Under Layers'
                         label='Watercolor, Photoshop'
                     />

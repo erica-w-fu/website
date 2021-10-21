@@ -35,27 +35,63 @@ function Projects() {
                   <p className="underline">Swift • XCode</p>
                 </Link>
               </a>
-              <a href="#React"><p className="underline">React</p></a>
-              <a href="#JavascriptCSSHTML"><p className="underline">JS • CSS • HTML</p></a>
-              <a href="#C#Unity"><p className="underline">C# • Unity</p></a>
-              <a href="#Processing"><p className="underline">Processing</p></a>
+              <a href="#React">
+                <Link activeClass="active" to="React" spy={true} smooth={true} offset={navHeight}>
+                  <p className="underline">React</p>
+                </Link>
+              </a>
+              <a href="#JavascriptCSSHTML">
+                <Link activeClass="active" to="JavascriptCSSHTML" spy={true} smooth={true} offset={navHeight}>
+                  <p className="underline">JS • CSS • HTML</p>
+                </Link>
+              </a>
+              <a href="#C#Unity">
+                <Link activeClass="active" to="C#Unity" spy={true} smooth={true} offset={navHeight}>
+                  <p className="underline">C# • Unity</p>
+                </Link>
+              </a>
+              <a href="#Processing">
+                <Link activeClass="active" to="Processing" spy={true} smooth={true} offset={navHeight}>
+                  <p className="underline">Processing</p>
+                </Link>
+              </a>
     
           </div>
 
           <div className="left-sec-section">
 
               <p className="category">Design</p>
-              <a href="#AdobeIllustrator"><p className="underline">Adobe Illustrator</p></a>
-              <a href="#Figma"><p className="underline">Figma</p></a>
-              <a href="#AdobePhotoshop"><p className="underline">Adobe Photoshop</p></a>
+              <a href="#AdobeIllustrator">
+                <Link activeClass="active" to="AdobeIllustrator" spy={true} smooth={true} offset={navHeight}>
+                  <p className="underline">Adobe Illustrator</p>
+                </Link>
+              </a>
+              <a href="#Figma">
+                <Link activeClass="active" to="Figma" spy={true} smooth={true} offset={navHeight}>
+                  <p className="underline">Figma</p>
+                </Link>
+              </a>
+              <a href="#AdobePhotoshop">
+                <Link activeClass="active" to="AdobePhotoshop" spy={true} smooth={true} offset={navHeight}>
+                  <p className="underline">Adobe Photoshop</p>
+                </Link>
+              </a>
 
           </div>
 
           <div className="left-sec-section">
 
               <p className="category">Fun</p>
-              <a href="#PhysicalComputing"><p className="underline">Physical Computing</p></a>
-              <a href="#Textiles"><p className="underline">Textiles</p></a>
+              <a href="#PhysicalComputing">
+                <Link activeClass="active" to="PhysicalComputing" spy={true} smooth={true} offset={navHeight}>
+                  <p className="underline">Physical Computing</p>
+                </Link>
+              </a>
+              <a href="#Textiles">
+                <Link activeClass="active" to="Textiles" spy={true} smooth={true} offset={navHeight}>
+                  <p className="underline">Textiles</p>
+                </Link>
+              </a>
 
           </div>
 
